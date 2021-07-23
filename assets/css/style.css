@@ -50,6 +50,7 @@ a {
 /* Change the color of links on hover */
 .topnav a:hover {
   color: rgb(233, 199, 6);
+  text-decoration: underline;
 }
 
 /* Add a color to the active/current link */
@@ -62,9 +63,5 @@ a {
   float: right;
 }
 
-.nav-text {
-    padding-top: 30px;
-    
-}
 
 
