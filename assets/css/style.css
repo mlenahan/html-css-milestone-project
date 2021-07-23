@@ -65,12 +65,23 @@ a {
 
 /* Bilgewater splash and bilgewater title */
 
-#bilgewater-splash {
+
+#bilgewater-splash-pic {
     background-image: url('../images/bilgewater_splash.jpg');
     background-repeat: no-repeat;
     height: 750px;
     width: 100%;
     overflow: hidden;
     position: relative;
+    
 }
+
+#bilgewater-text-div {
+  height: 250px;
+  width: 100%;
+}
+
+
+
+
 
