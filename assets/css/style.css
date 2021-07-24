@@ -82,9 +82,13 @@ a {
   color: #d49c02;
 }
 
-#divider {
-  
-}
+/* Bilgewater Lore Section */
 
+#lore-div p {
+  font-size: 20px;
+  text-align: center;
+  margin: 2.5% 35% 2.5% 35%;
+ 
+}
 
 
