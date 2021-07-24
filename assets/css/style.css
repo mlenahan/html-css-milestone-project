@@ -6,6 +6,9 @@
     border: none;
 }
 
+
+/* make sure all colours are correct!!!!!!!!!!! */
+
 body {
     font-family: 'Cormorant Garamond', serif;
     font-size:25px;
@@ -15,6 +18,10 @@ body {
 
 a {
     text-decoration: none;
+}
+
+h4, h6 {
+  color: #d49c02;
 }
 
 /* header */
@@ -125,6 +132,14 @@ a {
   text-align: center;
   font-size: 75px;
   text-decoration: none;
+  
 }
+
+.champion-link-item a:hover {
+  text-decoration: underline;
+  color: #d49c02;
+}
+
+
 
 
