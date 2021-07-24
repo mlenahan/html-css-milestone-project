@@ -149,11 +149,6 @@ h4, h6 {
   color: #d49c02;
 }
 
-.item2 {
-  
-  text-align: center;
-  padding-top: 15%;
-}
 
 .item1 {
   background-size: cover;
@@ -161,6 +156,76 @@ h4, h6 {
   height: 100%;
   
 }
+.item2 {
+  
+  text-align: center;
+  padding-top: 15%;
+}
+
+.div-border {
+  border: 1px solid #d49c02;
+  margin:2.5% 10% 2.5% 10%;
+  padding-right: 10%;
+}
+
+/* Visions of Bilgewater and image slider*/
+
+#visions-of-bilgewater h1 {
+  text-align: center;
+  font-size: 100px;
+  color: #d49c02;
+}
+
+#slider {
+  overflow: hidden;
+  margin: auto;
+  width: 50%;
+  padding-top: 30px;
+}
+
+#slider figure{
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  animation: 20s slider infinite;
+}
+
+#slider figure img {
+  width: 20%;
+  float: left;
+}
+
+@keyframes slider {
+  0% {
+    left: 0;
+  }
+  20% {
+    left: 0;
+  }
+  25% {
+    left: -100%;
+  }
+  45% {
+    left: -100%;
+  }
+  50% {
+    left: -200%;
+  }
+  70% {
+    left: -200%;
+  }
+  75% {
+    left: -300%;
+  }
+  95% {
+    left: -300%;
+  }
+  100% {
+    left: -400%;
+  }
+}
+
 
 
 
