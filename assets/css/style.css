@@ -9,6 +9,8 @@
 body {
     font-family: 'Cormorant Garamond', serif;
     font-size:25px;
+    color: #c4b998;
+    background-color: black;
 }
 
 a {
@@ -17,13 +19,10 @@ a {
 
 /* header */
 
-
-
-
 #lol-title {
     font-family: 'Cormorant Garamond', serif;
     font-size: 50px;
-    color: rgb(233, 199, 6);
+    color: #d49c02;
 }
 
 /* header menu */
@@ -80,10 +79,12 @@ a {
   text-align: center;
   padding-top: 600px;
   font-size: 100px;
-  color: rgb(233, 199, 6);
+  color: #d49c02;
 }
 
-
+#divider {
+  
+}
 
 
 
