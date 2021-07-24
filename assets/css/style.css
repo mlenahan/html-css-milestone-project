@@ -115,13 +115,6 @@ h4, h6 {
   grid-row-gap: 25px;
 }
 
-/* .item-1 {
-  background: #b03532;
-}
-.item-2 {
-  background: #33a8a5;
-} */
-
 .champion-base {
   background-size: cover;
   width: 100%;
@@ -139,6 +132,8 @@ h4, h6 {
   text-decoration: underline;
   color: #d49c02;
 }
+
+/* featured video of Bilgewater */
 
 
 
