@@ -76,9 +76,11 @@ a {
     
 }
 
-#bilgewater-text-div {
-  height: 250px;
-  width: 100%;
+#bilgewater-splash-pic h1 {
+  text-align: center;
+  padding-top: 600px;
+  font-size: 100px;
+  color: rgb(233, 199, 6);
 }
 
 
