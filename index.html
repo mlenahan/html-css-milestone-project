@@ -16,8 +16,10 @@
   <!-- header with links to other pages, try using list items to allign title to center -->
     <header>
       
+      <!-- fix issue with id and how it should be class -->
+
       <div class="topnav">
-        <a id="lol-title" class="active" href="index.html">League of Legends</a>
+        <a id="lol-title" class="active" href="index.html">League of Legends</a>    
       
         <div class="topnav-right">
           <a id="lol-title" href="graves.html">Graves</a>
@@ -28,7 +30,7 @@
 
     <section id="bilgewater">
         <div id="bilgewater-splash-pic">
-            <h1 id="bilgewater-text">Bilgewater</h1>
+            <h1>Bilgewater</h1>
         </div>
     </section>
 
@@ -50,7 +52,41 @@
       </div>
     </section>
 
-    <section>Champions of Bilgewater</section>
+    <div id="divider">
+      <img src="assets/images/header-divider.png">
+    </div>
+
+    <section id="champions-of-bilgewater">
+
+      <h1>Champions of Bilgewater</h1>
+
+      <container id="champion-grid">
+
+        <div class="item-1">
+          <img class="champion-base" src="assets/images/graves-base.jpg">
+        </div>
+
+        <div class="item-2">
+          <img class="champion-base" src="assets/images/twisted-fate-base.jpg">
+        </div>
+
+        <div class="champion-link-item">
+          <a href="graves.html">
+            <h4>Graves</h4>
+            <h6>The Outlaw</h6>
+          </a>
+        </div>
+        
+        <div class="champion-link-item">
+          <a href="twisted-fate.html">
+            <h4>Twisted Fate</h4>
+            <h6>The Card Master</h6>
+          </a>
+        </div>
+
+      </container>
+
+    </section>
 
     <section>Video of Bilgewater (featured video)</section>
 
