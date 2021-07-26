@@ -255,6 +255,10 @@ footer {
   color: #d49c02;
 }
 
+.social-networks i:hover {
+  text-decoration: underline;
+}
+
  /*possibly try to add text decoration to icons  https://stackoverflow.com/questions/39441877/font-awesome-icons-have-text-decoration-issues-inside-links */
 
 /* Graves page */
