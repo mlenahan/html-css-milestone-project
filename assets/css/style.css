@@ -311,3 +311,19 @@ footer {
   font-size: 100px;
   color: #d49c02;
 }
+
+/* Twisted Fate page */
+
+#twisted-fate-splash-pic {
+  height: 650px;
+  width: 100%;
+  background: url('../images/twisted-fate-base.jpg') no-repeat center center;
+  
+}
+
+#twisted-fate-splash-pic h1 {
+  text-align: center;
+  padding-top: 550px;
+  font-size: 100px;
+  color: #d49c02;
+}
