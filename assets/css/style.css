@@ -255,6 +255,8 @@ footer {
   color: #d49c02;
 }
 
+ /*possibly try to add text decoration to icons  https://stackoverflow.com/questions/39441877/font-awesome-icons-have-text-decoration-issues-inside-links */
+
 /* Graves page */
 
 #graves-splash-pic {
@@ -299,6 +301,12 @@ footer {
 }
 
 #abilities-section h1 {
+  text-align: center;
+  font-size: 100px;
+  color: #d49c02;
+}
+
+#graves-skins-section h1 {
   text-align: center;
   font-size: 100px;
   color: #d49c02;
