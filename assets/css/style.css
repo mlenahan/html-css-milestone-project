@@ -41,6 +41,7 @@ h6 {
   height: 100px;
   font-size: 100px;
   align-items: center;
+  border-bottom: 1px solid #d49c02;
 }
 
 /* Style the links inside the navigation bar */
@@ -235,6 +236,7 @@ h6 {
 
 footer {
   height: 150px;
+  border-top: 1px solid #d49c02;
 }
 
 .social-networks {
