@@ -90,7 +90,7 @@ h6 {
 
 /* Bilgewater Lore section */
 
-#lore-div p {
+.lore-div p {
   font-size: 20px;
   text-align: center;
   margin: 2.5% 35% 2.5% 35%;
@@ -256,12 +256,15 @@ footer {
 /* Graves page */
 
 #graves-splash-pic {
-  background-image: url('../images/graves-base.jpg');
-  background-repeat: no-repeat;
-  height: 750px;
-  width: 150%;
-  overflow: hidden;
-  position: relative;
-  margin-left: 15%;
-  object-fit: fill;
+  height: 650px;
+  width: 100%;
+  background: url('../images/graves-base.jpg') no-repeat center center;
+  
+}
+
+#graves-splash-pic h1 {
+  text-align: center;
+  padding-top: 550px;
+  font-size: 100px;
+  color: #d49c02;
 }
