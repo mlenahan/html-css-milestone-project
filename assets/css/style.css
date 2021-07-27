@@ -1,4 +1,38 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+:root {
+  /* https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties */
+  /* https://material.io/design/color/the-color-system.html#color-theme-creation */
+  --primary-main: #6200EE;
+  --primary-variant: #3700B3;
+  --secondary-main: #03DAC6;
+  --secondary-variant: #018786;
+  --surface-main: #FFFFFF;
+  --background-main: #EEE;
+
+  /* Font System */
+
+  /* Font face */
+  --primary-font: 'Roboto', sans-serif;
+
+  /* Type scale */
+  --font-size-h1: 46px;
+  --font-weight-h1: 700;
+  --font-letter-spacing-h1: -1.5px;
+
+  --font-size-body1: 16px;
+  --font-weight-body1: normal;
+  --font-letter-spacing-body1: 0.5px;
+
+  /* Spacing */
+  --spacing-gutter: 36px;
+  --spacing-paragraph-gap: 8px;
+
+  /* Breakpoints */
+  --breakpoint-large: 1440px;
+  --breakpoint-medium: 1240px;
+  --breakpoint-small: 600px;
+}
 
 * {
   margin: 0;
