@@ -43,59 +43,85 @@
 /* make sure all colours are correct!!!!!!!!!!! */
 
 body {
-  font-family: 'Cormorant Garamond', serif;
-  font-size: 25px;
-  color: #c4b998;
-  background-color: black;
+  font-family: var(--primary-font);
+  color: var(--primary-variant);
+  background-color: var(--background-main);
 }
 
 a {
   text-decoration: none;
 }
 
+h1 {
+  font-size: var(--font-size-h1);
+  letter-spacing: var(--font-letter-spacing-h1);
+  font-weight: var(--font-weight-h1);
+
+  color: var(--primary-main);
+}
+
 h4,
 h6 {
-  color: #d49c02;
+  color: var(--primary-main);
+}
+
+.container {
+  max-width: 680px;
+  margin: 0 auto;
+  /* TODO no hard coding */
+  padding: 0px 40px;
+}
+
+.author {
+  margin-top: var(--spacing-gutter);
+}
+
+.dish-image {
+  width: 100%;
+}
+
+.lore-div {
+  display: grid;
+  grid-gap: var(--spacing-paragraph-gap);
+}
+
+.body1 {
+  font-size: var(--font-size-body1);
+  letter-spacing: var(--font-letter-spacing-body1);
+  font-weight: var(--font-weight-body1);
 }
 
 /* header */
 
 .topnav .lol-title {
-  font-family: 'Cormorant Garamond', serif;
-  font-size: 50px;
-  color: #d49c02;
+  /* font-size: 50px; */
+  color: var(--primary-main);
 }
 
 /* header menu */
 
 /* Add a black background color to the top navigation */
 .topnav {
-  background-color: black;
+  background-color: var(--surface-main);
   overflow: hidden;
   height: 100px;
-  font-size: 100px;
+  /* font-size: 100px; */
   align-items: center;
-  border-bottom: 1px solid #d49c02;
+  border-bottom: 1px solid var(--primary-main);
 }
 
 /* Style the links inside the navigation bar */
 .topnav a {
   float: left;
-  color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  /* font-size: 17px; */
 }
 
 /* Change the color of links on hover */
 .topnav a:hover {
   text-decoration: underline;
-}
-
-/* Add a color to the active/current link */
-.topnav a.active {
-  color: white;
 }
 
 /* Right-aligned section inside the top navigation */
@@ -115,34 +141,27 @@ h6 {
 
 }
 
-#bilgewater-splash-pic h1 {
-  text-align: center;
-  padding-top: 600px;
-  font-size: 100px;
-  color: #d49c02;
-}
-
 /* Bilgewater Lore section */
 
-.lore-div p {
+/* .lore-div p {
   font-size: 20px;
   text-align: center;
   margin: 2.5% 35% 2.5% 35%;
-}
+} */
 
 /* Champions of Bilgewater section */
 
 #champions-of-bilgewater h1 {
   text-align: center;
-  font-size: 100px;
-  color: #d49c02;
+  /* font-size: 100px; */
+  color: var(--primary-main);
 }
 
 #champion-grid {
   display: grid;
   grid-template-columns: 500px 500px;
   grid-template-rows: 300px 300px;
-  background-color: black;
+  background-color: var(--surface-main);
   margin: 2.5% 25% 2.5% 25%;
   grid-column-gap: 25px;
   grid-row-gap: 25px;
@@ -156,14 +175,14 @@ h6 {
 
 .champion-link-item {
   text-align: center;
-  font-size: 75px;
+  /* font-size: 75px; */
   text-decoration: none;
 
 }
 
 .champion-link-item a:hover {
   text-decoration: underline;
-  color: #d49c02;
+  color: var(--primary-main);
 }
 
 /* featured video of Bilgewater */
@@ -172,14 +191,14 @@ h6 {
   display: grid;
   grid-template-columns: 500px 500px;
   grid-template-rows: 300px;
-  background-color: black;
+  background-color: var(--surface-main);
   margin: 2.5% 25% 2.5% 25%;
 }
 
 #featured-video h1 {
   text-align: center;
-  font-size: 100px;
-  color: #d49c02;
+  /* font-size: 100px; */
+  color: var(--primary-main);
 }
 
 .item1 {
@@ -195,7 +214,7 @@ h6 {
 }
 
 .div-border {
-  border: 1px solid #d49c02;
+  border: 1px solid var(--primary-main);
   margin: 2.5% 10% 2.5% 10%;
   padding-right: 10%;
 }
@@ -204,8 +223,8 @@ h6 {
 
 #visions-of-bilgewater h1 {
   text-align: center;
-  font-size: 100px;
-  color: #d49c02;
+  /* font-size: 100px; */
+  color: var(--primary-main);
 }
 
 .slider {
@@ -271,7 +290,7 @@ h6 {
 
 footer {
   height: 150px;
-  border-top: 1px solid #d49c02;
+  border-top: 1px solid var(--primary-main);
 }
 
 .social-networks {
@@ -283,10 +302,10 @@ footer {
 }
 
 .social-networks i {
-  font-size: 160%;
+  /* font-size: 160%; */
   margin: 1%;
   padding: 5%;
-  color: #d49c02;
+  color: var(--primary-main);
 }
 
 .social-networks i:hover {
@@ -307,15 +326,15 @@ footer {
 #graves-splash-pic h1 {
   text-align: center;
   padding-top: 550px;
-  font-size: 100px;
-  color: #d49c02;
+  /* font-size: 100px; */
+  color: var(--primary-main);
 }
 
 .abilities-grid {
   display: grid;
   grid-template-columns: 400px 400px ;
   grid-template-rows: 300px 300px 300px 300px;
-  background-color: black;
+  background-color: var(--surface-main);
   column-gap: 10px;
   row-gap: 10px;
   margin-left: 30%;
@@ -334,20 +353,20 @@ footer {
 }
 
 .abilities-grid-h2 {
-  color: #d49c02;
+  color: var(--primary-main);
   text-align: center;
 }
 
 #abilities-section h1 {
   text-align: center;
-  font-size: 100px;
-  color: #d49c02;
+  /* font-size: 100px; */
+  color: var(--primary-main);
 }
 
 #graves-skins-section h1 {
   text-align: center;
-  font-size: 100px;
-  color: #d49c02;
+  /* font-size: 100px; */
+  color: var(--primary-main);
 }
 
 /* Twisted Fate page */
@@ -362,6 +381,6 @@ footer {
 #twisted-fate-splash-pic h1 {
   text-align: center;
   padding-top: 550px;
-  font-size: 100px;
-  color: #d49c02;
+  /* font-size: 100px; */
+  color: var(--primary-main);
 }
