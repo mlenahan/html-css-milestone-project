@@ -36,6 +36,7 @@
   --font-size-subtitle: 24px;
   --font-weight-subtitle: 500;
   --font-letter-spacing-subtitle: -1px;
+  --line-height: 28px;
 
   /* Body */
   --font-size-body: 16px;
@@ -78,16 +79,12 @@
   border: none;
 }
 
-/* make sure all colours are correct!!!!!!!!!!! */
-
-body {
-  font-family: var(--primary-font);
-  color: var(--primary-variant);
-  background-color: var(--background-main);
-}
-
 a {
   text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
 }
 
 h1 {
@@ -102,48 +99,40 @@ h4,
 h6 {
   color: var(--primary-main);
 }
-
-.container {
-  max-width: 680px;
-  margin: 0 auto;
-  /* TODO no hard coding */
-  padding: 0px 40px;
-}
-
-.author {
-  margin-top: var(--spacing-gutter);
-}
-
-.dish-image {
-  width: 100%;
-}
-
-.lore-div {
-  display: grid;
-  grid-gap: var(--spacing-paragraph-gap);
-}
-
-.body1 {
-  font-size: var(--font-size-body);
-  letter-spacing: var(--font-letter-spacing-body);
-  font-weight: var(--font-weight-body);
+.content-container {
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+left: 50%;
+position: static;
 }
 
 /* header */
 
 .site-header {
-display: flex;
-flex-direction: row;
-align-items: center;
-padding: 16px;
+  flex-direction: row;
+  padding: 16px;
+  height: 55px;
+  background: #880E4F;
+  list-style-type: none;
+}
 
-position: static;
-height: 96px;
-left: 0.17%;
-right: 0.17%;
-top: 0px;
+#menu-item-right {
+  font-size: var(--font-size-subtitle);
+  font-family: var(--primary-font);
+  float: right;
+  color: #EEE;
+  text-decoration: none;
+  
+}
 
-background: #880E4F;
+#menu-item-left {
+  font-size: var(--font-size-subtitle);
+  font-family: var(--primary-font);
+  float: left;
+  color: #EEE;
+  text-decoration: none;
 }
 
 /* footer */
