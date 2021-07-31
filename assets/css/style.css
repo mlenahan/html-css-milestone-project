@@ -135,6 +135,12 @@ position: static;
   text-decoration: none;
 }
 
+.beef-barbacoa-pic {
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
 /* footer */
 
 footer {
