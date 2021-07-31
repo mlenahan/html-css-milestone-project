@@ -3,10 +3,10 @@
 :root {
   /* https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties */
   /* https://material.io/design/color/the-color-system.html#color-theme-creation */
-  --primary-main: #6200EE;
-  --primary-variant: #3700B3;
-  --secondary-main: #03DAC6;
-  --secondary-variant: #018786;
+  --primary-main: #880E4F;
+  --primary-variant: #AD1457;
+  --secondary-main: #F06292;
+  --secondary-variant: #F48FB1;
   --surface-main: #FFFFFF;
   --background-main: #EEE;
 
@@ -16,13 +16,51 @@
   --primary-font: 'Roboto', sans-serif;
 
   /* Type scale */
-  --font-size-h1: 46px;
-  --font-weight-h1: 700;
-  --font-letter-spacing-h1: -1.5px;
 
-  --font-size-body1: 16px;
-  --font-weight-body1: normal;
-  --font-letter-spacing-body1: 0.5px;
+  /* H1 */
+  --font-size-h1: 64px;
+  --font-weight-h1: 700;
+  --font-letter-spacing-h1: -1px;
+
+  /* H2 */
+  --font-size-h2: 40px;
+  --font-weight-h2: 700;
+  --font-letter-spacing-h2: -1px;
+
+  /* H3 */
+  --font-size-h3: 24px;
+  --font-weight-h3: 700;
+  --font-letter-spacing-h3: -1px;
+
+  /* Subtitle */
+  --font-size-subtitle: 24px;
+  --font-weight-subtitle: 500;
+  --font-letter-spacing-subtitle: -1px;
+
+  /* Body */
+  --font-size-body: 16px;
+  --font-weight-body: 500;
+  --font-letter-spacing-body: 0.5px;
+
+  /* Boldtext */
+  --font-size-boldtext: 16px;
+  --font-weight-boldtext: bold;
+  --font-letter-spacing-boldtext: 0.5px;
+
+  /* Small */
+  --font-size-small: 14px;
+  --font-weight-small: 500;
+  --font-letter-spacing-body: 0.5px;
+  
+  /* Pretitle */
+  --font-size-pretitle: 10px;
+  --font-weight-pretitle: 500;
+  --font-letter-spacing-pretitle: 0.5px;
+
+  /* Button */
+  --font-size-button: 10px;
+  --font-weight-button: 500;
+  --font-letter-spacing-button: 0.5px;
 
   /* Spacing */
   --spacing-gutter: 36px;
@@ -86,47 +124,26 @@ h6 {
 }
 
 .body1 {
-  font-size: var(--font-size-body1);
-  letter-spacing: var(--font-letter-spacing-body1);
-  font-weight: var(--font-weight-body1);
+  font-size: var(--font-size-body);
+  letter-spacing: var(--font-letter-spacing-body);
+  font-weight: var(--font-weight-body);
 }
 
 /* header */
 
-.topnav .lol-title {
-  /* font-size: 50px; */
-  color: var(--primary-main);
-}
+.site-header {
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 16px;
 
-/* header menu */
+position: static;
+height: 96px;
+left: 0.17%;
+right: 0.17%;
+top: 0px;
 
-/* Add a black background color to the top navigation */
-.topnav {
-  background-color: var(--surface-main);
-  overflow: hidden;
-  height: 100px;
-  /* font-size: 100px; */
-  align-items: center;
-  border-bottom: 1px solid var(--primary-main);
-}
-
-/* Style the links inside the navigation bar */
-.topnav a {
-  float: left;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  /* font-size: 17px; */
-}
-
-/* Change the color of links on hover */
-.topnav a:hover {
-  text-decoration: underline;
-}
-
-/* Right-aligned section inside the top navigation */
-.topnav-right {
-  float: right;
+background: #880E4F;
 }
 
 /* footer */
