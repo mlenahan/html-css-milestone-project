@@ -93,6 +93,7 @@ h1 {
   font-weight: var(--font-weight-h1);
 
   color: var(--primary-main);
+  text-align: left;
 }
 
 h4,
@@ -100,12 +101,12 @@ h6 {
   color: var(--primary-main);
 }
 .content-container {
-display: flex;
-flex-direction: column;
-align-items: center;
-padding: 0px;
-left: 50%;
-position: static;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 100px;
+  margin-right: 100px;
+  position: static;
 }
 
 /* header */
@@ -135,25 +136,36 @@ position: static;
   text-decoration: none;
 }
 
+.main-heading-div {
+  display: flex;
+  padding: 30px;
+}
+
+.main-heading {
+  text-align: left;
+}
+
+
 .beef-barbacoa-pic {
+  display: flex;
   border: 1px solid rgba(0, 0, 0, 0.15);
   box-sizing: border-box;
   border-radius: 10px;
+  width: 50%;
+  
 }
 
-.author-and-button-div {
+
+ /*fix positioning for this  */
+
+.author-save-button-div {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 0px;
-  position: static;
-}
-
-.author {
-  font-family: var(--primary-font);
-  font-size: var(--font-weight-boldtext);
-  font-weight: var(--font-weight-boldtext);
-  float:left;
+  margin-left: 425px;
+  margin-right: 425px;
+  padding: 30px;
+  height: 44px;
 }
 
 .save-button {
@@ -170,18 +182,26 @@ position: static;
 
   background: #AD1457;
   border-radius: 8px;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 10px;
-  line-height: 12px;
 
+  font-family:var(--primary-font);
+  font-style: normal;
+  font-weight: var(--font-weight-button);
+  font-size: var(--font-weight-button);
+  line-height: 12px;
 
   text-align: center;
   letter-spacing: 2px;
   text-transform: uppercase;
+
   color: #FFFFFF;
-  float: right;
+}
+
+.author {
+  display: flex;
+  font-family: var(--primary-font);
+  font-weight: var(--font-weight-boldtext);
+  font-size: var(--font-size-boldtext);
+
 }
 
 /* footer */
