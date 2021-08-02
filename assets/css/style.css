@@ -192,6 +192,7 @@ p {
   box-sizing: border-box;
   border-radius: 10px;
   max-width: 100%;
+  min-width: 500px;
   height: auto;
 }
 
