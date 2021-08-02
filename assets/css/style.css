@@ -376,3 +376,25 @@ th {
   margin: 30px;
   padding: 30px;
 }
+
+.pizza-baked-potato-div {
+  display: flex;
+  flex-direction: row;
+  margin: 30px;
+  
+  padding: 30px;
+}
+
+.pizza-baked-potato-h2 {
+  font-family: var(--primary-font);
+}
+
+.pizza-baked-potato-image-div {
+  margin: 30px;
+  padding: 30px;
+}
+
+.pizza-baked-potato-info-div {
+  margin: 30px;
+  padding: 30px;
+}
