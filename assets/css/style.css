@@ -139,7 +139,7 @@ h6 {
 }
 
 .beef-barbacoa-pic {
-  display: flex;
+  display: block;
   border: 1px solid rgba(0, 0, 0, 0.15);
   box-sizing: border-box;
   border-radius: 10px;
@@ -192,6 +192,19 @@ h6 {
   font-weight: var(--font-weight-boldtext);
   font-size: var(--font-size-boldtext);
 
+}
+
+.prep-notes {
+  display: flex;
+  flex-direction: row;
+  margin-left: 30px;
+}
+
+.prep-step {
+  margin: 10px;
+  font-family: var(--primary-font);
+  font-weight:var(--font-weight-boldtext);
+  font-size: var(--font-size-boldtext);
 }
 
 /* footer */
