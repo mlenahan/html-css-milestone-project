@@ -82,6 +82,12 @@
 
 a {
   text-decoration: none;
+  font-family: var(--primary-font);
+  color: #FFFFFF;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 ul {
@@ -267,12 +273,12 @@ th {
 }
 
 .nutrition-table {
+  display: flex;
   margin: 30px;
   padding: 30px;
   font-family: var(--primary-font);
   font-weight:var(--font-weight-boldtext);
   font-size: var(--font-size-boldtext);
-  border-spacing: 0;
 }
 
 .nutrition {
