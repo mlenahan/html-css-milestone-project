@@ -370,3 +370,9 @@ th {
 
 
 /* Browse Page */
+
+.my-recipes-div {
+  font-family: var(--primary-font);
+  margin: 30px;
+  padding: 30px;
+}
