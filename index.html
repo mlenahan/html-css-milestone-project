@@ -13,42 +13,65 @@
   <title>BBC Good Food</title>
 </head>
 
+<!-- wrap each section in a container rather than one big one??  margin-inline for just left and right-->
+
 <body>
+
   <div class="site-container">
-  <header class="site-header">
-    <nav>
-      <ul id="menu">
-        <li>
-          <a href="index.html" class="active" id="menu-item-left">BBC Good Food</a>
-        </li>
-        <li>
-          <a href="browse.html" id="menu-item-right">Browse</a>
-        </li>
-      </ul>
-    </nav>
-  </header>
+    <header class="site-header">
+      <nav>
+        <ul id="menu">
+          <li>
+            <a href="index.html" class="active" id="menu-item-left">BBC Good Food</a>
+          </li>
+          <li>
+            <a href="browse.html" id="menu-item-right">Browse</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
 
-  <section>
-  <div class="content-container">
-    
-    <div class="main-heading-div">
-      <h1 class="main-heading">Slow Cooker Beef Barbacoa</h1>
-    </div>
-    
-    <img src="assets/images/beef-barbacoa.jpg" class="beef-barbacoa-pic">
-  </section>
+    <section>
+      <div class="content-container">
 
+        <div class="h1-div">
+          <h1>Slow Cooker Beef Barbacoa</h1>
+        </div>
+
+        <img src="assets/images/beef-barbacoa.jpg" class="beef-barbacoa-pic">
+    </section>
+
+
+    <!-- put each of these in their own divs -->
     <section class="author-button-section">
 
       <div class="author-save-button-div">
+        <div>
           <span class="author">By Good Food Team</span>
-            
+        </div>
+
+        <div>
           <button class="save-button" type="button">Save</button>
+        </div>
+
       </div>
 
     </section>
-    
+
   </div>
+
+
+  <section>
+    <div class="prep-notes">
+      <span>Prep: 1 hr 30 mins</span>
+      <span>Difficulty: Easy</span>
+      <span>Serves: 8-10</span>
+    </div>
+  </section>
+
+  <section>Ingredients</section>
+
+  <section>Method</section>
 
 
 
@@ -73,7 +96,7 @@
     </ul>
 
   </footer>
-</div>
+  </div>
 
   <!-- font awesome script -->
   <script src="https://kit.fontawesome.com/c7dbda0798.js" crossorigin="anonymous"></script>

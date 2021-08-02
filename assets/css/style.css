@@ -124,7 +124,6 @@ h6 {
   font-family: var(--primary-font);
   float: right;
   color: #EEE;
-  text-decoration: none;
   
 }
 
@@ -133,25 +132,17 @@ h6 {
   font-family: var(--primary-font);
   float: left;
   color: #EEE;
-  text-decoration: none;
 }
 
-.main-heading-div {
-  display: flex;
+.h1-div {
   padding: 30px;
 }
-
-.main-heading {
-  text-align: left;
-}
-
 
 .beef-barbacoa-pic {
   display: flex;
   border: 1px solid rgba(0, 0, 0, 0.15);
   box-sizing: border-box;
   border-radius: 10px;
-  width: 50%;
   
 }
 
@@ -160,10 +151,9 @@ h6 {
 
 .author-save-button-div {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
-  margin-left: 425px;
-  margin-right: 425px;
+  margin-left: 100px;
+  margin-right: 100px;
   padding: 30px;
   height: 44px;
 }
