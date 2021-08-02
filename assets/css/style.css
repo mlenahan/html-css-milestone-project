@@ -207,6 +207,12 @@ h6 {
   font-size: var(--font-size-boldtext);
 }
 
+th, td {
+  text-align: center;
+}
+
+
+
 /* footer */
 
 footer {
