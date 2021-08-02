@@ -103,7 +103,7 @@ h1 {
   letter-spacing: var(--font-letter-spacing-h1);
   font-weight: var(--font-weight-h1);
 
-  color: var(--primary-main);
+  color: var(--primary-variant);
   text-align: left;
 }
 
@@ -342,12 +342,12 @@ th {
 
 /* change border to divider */
 .site-footer {
-  flex-direction: row;
+  width: 100%;
   padding: 16px;
   height: 55px;
   background: #880E4F;
   list-style-type: none;
-  
+  bottom: 0;
 }
 
 .social-networks {
@@ -359,10 +359,7 @@ th {
   
 }
 
-/* change text of this */
-
 .social-networks i {
-  /* font-size: 160%; */
   margin: 1%;
   color: #FFFFFF;
 }
@@ -370,3 +367,6 @@ th {
 .social-networks i:hover {
   text-decoration: underline;
 }
+
+
+/* Browse Page */
