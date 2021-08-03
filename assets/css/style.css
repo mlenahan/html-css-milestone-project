@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
 
 :root {
   /* https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties */
@@ -65,8 +67,13 @@
   --font-letter-spacing-button: 0.5px;
 
   /* Spacing */
-  --spacing-gutter: 36px;
+  --spacing-gutter: 16px;
   --spacing-paragraph-gap: 8px;
+  --spacing-section-padding-between: 16px;
+  --spacing-nav-height: 96px;
+
+  /* Borders */
+  --border-thickness: 1px;
 
   /* Breakpoints */
   --breakpoint-large: 1440px;
@@ -80,18 +87,37 @@
   border: none;
 }
 
+body {
+  font-family: var(--primary-font);
+}
+
 a {
   text-decoration: none;
-  font-family: var(--primary-font);
   color: #FFFFFF;
 }
 
-a:hover {
-  text-decoration: underline;
+header {
+  background: #880E4F;
+  color: #EEE;
+  flex-direction: row;
+  font-size: var(--font-size-subtitle);
+  font-weight: 500;
+  padding: 0 var(--spacing-gutter);
+}
+
+header ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: var(--spacing-nav-height);
 }
 
 ul {
   list-style-type: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 li {
@@ -99,11 +125,11 @@ li {
 }
 
 h1 {
-  font-size: var(--font-size-h1);
-  letter-spacing: var(--font-letter-spacing-h1);
-  font-weight: var(--font-weight-h1);
-
   color: var(--primary-variant);
+  font-size: var(--font-size-h1);
+  font-weight: var(--font-weight-h1);
+  letter-spacing: var(--font-letter-spacing-h1);
+  padding-top: 8px;
   text-align: left;
 }
 
@@ -135,19 +161,44 @@ p {
   font-size: var(--font-size-body);
   letter-spacing: var(--font-letter-spacing-body);
   font-weight: var(--font-weight-body);
-
-  padding-bottom: 30px;
-  padding-top: 30px;
 }
 
-.content-container {
+.headline-image {
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 20%);
+  box-sizing: border-box;
+  display: block;
+  height: auto;
+  max-width: 100%;
+  min-width: 500px;
+}
+
+
+.sub-section {
+  padding: 0 var(--spacing-gutter)
+}
+
+.container {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  margin-left: 100px;
-  margin-right: 100px;
   position: static;
+  margin: 0 auto;
+  max-width: 1040px;
 }
+
+.top-section>* {
+  margin-bottom: var(--spacing-gutter)
+}
+
+.container>section:not(:last-of-type) {
+  padding-bottom: var(--spacing-section-padding-between);
+}
+
+.container>section:not(:first-of-type) {
+  padding-top: var(--spacing-section-padding-between);
+  border-top: var(--border-thickness) solid var(--secondary-variant);
+}
+
 
 .divider {
   position: absolute;
@@ -158,59 +209,12 @@ p {
   mix-blend-mode: normal;
 }
 
-/* header */
-
-.site-header {
-  flex-direction: row;
-  padding: 16px;
-  height: 55px;
-  background: #880E4F;
-  list-style-type: none;
-}
-
-#menu-item-right {
-  font-size: var(--font-size-subtitle);
-  font-family: var(--primary-font);
-  float: right;
-  color: #EEE;
-
-}
-
-#menu-item-left {
-  font-size: var(--font-size-subtitle);
-  font-family: var(--primary-font);
-  float: left;
-  color: #EEE;
-}
-
-.h1-div {
-  padding: 30px;
-}
-
-.image-div {
-  margin-left: 30px;
-  margin-right: 30px;
-}
-
-.beef-barbacoa-pic {
-  display: block;
-  border: 1px solid rgba(0, 0, 0, 0.15);
-  box-sizing: border-box;
-  border-radius: 10px;
-  max-width: 100%;
-  min-width: 500px;
-  height: auto;
-}
-
  /*fix positioning for this  */
 
 .author-save-button-div {
   display: flex;
   justify-content: space-between;
-  margin-left: 30px;
-  margin-right: 30px;
-  padding: 40px;
-  height: 44px;
+  align-items: center;
 }
 
 .save-button {
@@ -228,7 +232,6 @@ p {
   background: #AD1457;
   border-radius: 8px;
 
-  font-family:var(--primary-font);
   font-style: normal;
   font-weight: var(--font-weight-button);
   font-size: var(--font-weight-button);
@@ -243,7 +246,6 @@ p {
 
 .author {
   display: flex;
-  font-family: var(--primary-font);
   font-weight: var(--font-weight-boldtext);
   font-size: var(--font-size-boldtext);
 
@@ -251,14 +253,10 @@ p {
 
 .prep-notes {
   display: flex;
-  flex-direction: row;
-  margin-left: 30px;
-  padding: 30px;
 }
 
 .prep-step {
   margin: 10px;
-  font-family: var(--primary-font);
   font-weight:var(--font-weight-boldtext);
   font-size: var(--font-size-boldtext);
 }
@@ -274,9 +272,6 @@ th {
 
 .nutrition-table {
   display: flex;
-  margin: 30px;
-  padding: 30px;
-  font-family: var(--primary-font);
   font-weight:var(--font-weight-boldtext);
   font-size: var(--font-size-boldtext);
 }
@@ -285,14 +280,10 @@ th {
   width: 100%;
 }
 
-.dish-info-text {
+.summary-text {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  margin-left: 30px;
-  margin-right: 30px;
-  padding: 30px;
-  font-family: var(--primary-font);
   font-size:var(--font-size-body);
   font-weight: var(--font-weight-body);
 }
@@ -301,8 +292,6 @@ th {
   margin-left: 30px;
   margin-right: 30px;
   padding: 30px;
-
-  font-family: var(--primary-font);
 }
 
 /* need to space out divs correctly???? */
@@ -319,15 +308,12 @@ th {
   margin-left: 30px;
   margin-right: 30px;
   padding: 30px;
-
-  font-family: var(--primary-font);
 }
 
 .method {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  font-family: var(--primary-font);
   font-size:var(--font-size-body);
   font-weight: var(--font-weight-body);
   line-height: 2.5;
@@ -341,38 +327,24 @@ th {
 /* footer */
 
 /* change border to divider */
-.site-footer {
-  width: 100%;
-  padding: 16px;
+footer {
+  padding: var(--spacing-gutter);
   height: 55px;
-  background: #880E4F;
-  list-style-type: none;
+  background: var(--primary-main);
   bottom: 0;
-}
-
-.social-networks {
-  text-align: center;
-}
-
-.social-networks>li {
-  display: inline;
-  
-}
-
-.social-networks i {
-  margin: 1%;
   color: #FFFFFF;
+  display: flex;
+  justify-content: space-between;
 }
 
-.social-networks i:hover {
-  text-decoration: underline;
+footer > ul {
+    display: flex;
+    column-gap: 16px;
 }
-
 
 /* Browse Page */
 
 .my-recipes-div {
-  font-family: var(--primary-font);
   margin: 30px;
   padding: 30px;
 }
@@ -385,10 +357,6 @@ th {
   padding: 30px;
 }
 
-.pizza-baked-potato-h2 {
-  font-family: var(--primary-font);
-}
-
 .pizza-baked-potato-image-div {
   margin: 30px;
   padding: 30px;
@@ -399,8 +367,9 @@ th {
 .pizza-baked-potato-info-div {
   display: flex;
   flex-direction: column;
-  font-family: var(--primary-font);
   margin: 30px;
   padding: 30px;
   line-height: 2.5;
 }
+style.css
+8 KB
