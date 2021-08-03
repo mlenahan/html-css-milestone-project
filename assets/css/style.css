@@ -89,11 +89,16 @@
 
 body {
   font-family: var(--primary-font);
+  line-height: 1.5;
 }
 
 a {
   text-decoration: none;
   color: #FFFFFF;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 header {
@@ -114,10 +119,6 @@ header ul {
 
 ul {
   list-style-type: none;
-}
-
-a:hover {
-  text-decoration: underline;
 }
 
 li {
@@ -344,15 +345,30 @@ footer > ul {
 
 /* Browse Page */
 
-.pizza-baked-potato-div {
+.recipe-div {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   gap: 5%;
+}
+
+.recipe-div a:hover {
+  text-decoration: underline;
+  color:#AD1457;
 }
 
 .recipe-image {
   display: block;
-  height: auto;
-  max-width: 600px;
+  max-width: 500px;
   min-width: 200px;
+}
+
+@media (min-width: 950px) {
+  .recipe-div {
+    flex-direction: row;
+  }
+  
+  .recipe-image {
+    margin-right: 0;
+  }
+
 }
