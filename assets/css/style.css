@@ -344,30 +344,15 @@ footer > ul {
 
 /* Browse Page */
 
-/* .my-recipes-div {
-  margin: 30px;
-  padding: 30px;
-}
-
 .pizza-baked-potato-div {
   display: flex;
   flex-direction: row;
-  margin: 30px;
-  
-  padding: 30px;
+  gap: 5%;
 }
 
-.pizza-baked-potato-image-div {
-  margin: 30px;
-  padding: 30px;
+.recipe-image {
   display: block;
-  max-width: 100%;
-}
-
-.pizza-baked-potato-info-div {
-  display: flex;
-  flex-direction: column;
-  margin: 30px;
-  padding: 30px;
-  line-height: 2.5; */
+  height: auto;
+  max-width: 600px;
+  min-width: 200px;
 }
