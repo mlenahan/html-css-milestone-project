@@ -314,8 +314,6 @@ footer {
   color: #FFFFFF;
   margin-top: var(--spacing-gutter);
   margin-top: -1px;
-  position: fixed;
-  width: 100%;
 }
 
 footer > div {
@@ -354,16 +352,6 @@ footer > div > ul {
   color:#AD1457;
 }
 
-/* @media (min-width: 950px) {
-  .recipe-div {
-    flex-direction: row;
-  }
-  
-  .recipe-image {
-    margin-right: 0;
-  }
-} */
-
 @media only screen and (max-width: 1240px) {
   :root {
     --spacing-container-gutter: 16px;
@@ -381,6 +369,7 @@ footer > div > ul {
   .recipe-card img {
     width: 100%;
   }
+
 }
   /* Breakpoints
   --breakpoint-large: 1440px;
