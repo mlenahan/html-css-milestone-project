@@ -72,7 +72,6 @@
   --spacing-section-padding-between: 16px;
   --spacing-nav-height: 64px;
   --spacing-button-padding: 8px 16px;
-  --spacing-sub-section-gutter: 16px;
 
   /* Borders */
   --border-thickness: 1px;
@@ -135,9 +134,7 @@ h2 {
   font-size: var(--font-size-h2);
   letter-spacing: var(--font-letter-spacing-h2);
   font-weight: var(--font-weight-h2);
-
   color: var(--primary-variant);
-  padding-bottom: 30px
 }
 
 h3 {
@@ -195,10 +192,6 @@ button:hover {
 }
 
 
-.sub-section {
-  padding: 0 var(--spacing-sub-section-gutter)
-}
-
 .container {
   display: flex;
   flex-direction: column;
@@ -249,12 +242,10 @@ button:hover {
 
 .prep-notes {
   display: flex;
-}
-
-.prep-step {
-  margin: 10px;
+  flex-wrap: wrap;
   font-weight:var(--font-weight-boldtext);
   font-size: var(--font-size-boldtext);
+  gap: var(--spacing-gutter);
 }
 
 th, td {
@@ -317,39 +308,47 @@ th {
 }
 
 footer {
-  padding: var(--spacing-gutter);
   height: 55px;
   background: var(--primary-main);
   bottom: 0;
   color: #FFFFFF;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   margin-top: var(--spacing-gutter);
 }
 
-footer > ul {
+footer > div {
+  padding: var(--spacing-gutter);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer > div > ul {
     display: flex;
     column-gap: 16px;
 }
 
 /* Browse Page */
 
-.recipe-div {
+.recipe-card {
+  display: flex;
+  gap: var(--spacing-gutter);
+}
+
+.recipe-card-content {
   display: flex;
   flex-direction: column;
-  gap: 5%;
+  gap: var(--spacing-gutter);
 }
 
-.recipe-div a:hover {
+.recipe-card img {
+  object-fit: cover;
+  width:200px;
+  height:200px;
+}
+
+.recipe-card a:hover {
   text-decoration: underline;
   color:#AD1457;
-}
-
-.recipe-image {
-  display: block;
-  max-width: 500px;
-  min-width: 200px;
 }
 
 /* @media (min-width: 950px) {
@@ -362,12 +361,22 @@ footer > ul {
   }
 } */
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1240px) {
+  :root {
+    --spacing-container-gutter: 16px;
+  }
+}
 
+@media only screen and (max-width: 600px) {
   :root {
     --spacing-nav-height: 56px;
-    --spacing-container-gutter: 16px;
-    --spacing-sub-section-gutter: 0px;
+  }
+
+  .recipe-card {
+    flex-direction: column;
+  }
+  .recipe-card img {
+    width: 100%;
   }
 }
   /* Breakpoints
