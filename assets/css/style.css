@@ -313,6 +313,9 @@ footer {
   bottom: 0;
   color: #FFFFFF;
   margin-top: var(--spacing-gutter);
+  margin-top: -1px;
+  position: fixed;
+  width: 100%;
 }
 
 footer > div {
