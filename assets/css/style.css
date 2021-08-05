@@ -72,6 +72,7 @@
   --spacing-section-padding-between: 16px;
   --spacing-nav-height: 64px;
   --spacing-button-padding: 8px 16px;
+  --spacing-line-height: 32px;
 
   /* Borders */
   --border-thickness: 1px;
@@ -234,7 +235,6 @@ button:hover {
   align-items: center;
 }
 
-
 .author {
   display: flex;
   font-weight: var(--font-weight-boldtext);
@@ -283,7 +283,7 @@ th {
 }
 
 .ingredients-section li {
-  line-height: 32px;
+  line-height: var(--spacing-line-height);
 }
 
 .ingredients-right {
@@ -302,7 +302,7 @@ th {
   align-items: flex-start;
   font-size:var(--font-size-body);
   font-weight: var(--font-weight-body);
-  line-height: 32px;
+  line-height: var(--spacing-line-height);
 }
 
 .method-list-item {
