@@ -98,7 +98,7 @@ body {
 
 a {
   text-decoration: none;
-  color: #FFFFFF;
+  color: var(--surface-main);
 }
 
 a:hover {
@@ -106,8 +106,8 @@ a:hover {
 }
 
 header {
-  background: #880E4F;
-  color: #EEE;
+  background: var(--primary-main);
+  color:var(--surface-main);
   flex-direction: row;
   font-size: var(--font-size-subtitle);
   font-weight: 500;
@@ -176,7 +176,7 @@ button {
   text-align: center;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: var(--surface-main);
   box-shadow: 0 2px 5px rgb(0 0 0 / 20%);
   transition: background-color 250ms;
 }
@@ -224,7 +224,7 @@ button:hover {
   height: 1px;
   left: 0%;
   right: 0%;
-  background: #F48FB1;
+  background: var(--secondary-variant);
   mix-blend-mode: normal;
 }
 
@@ -315,7 +315,7 @@ footer {
   height: 55px;
   background: var(--primary-main);
   bottom: 0;
-  color: #FFFFFF;
+  color: var(--surface-main);
   margin-top: var(--spacing-gutter);
   margin-top: -1px;
 }
@@ -355,7 +355,7 @@ footer > div > ul {
 
 .recipe-card a:hover {
   text-decoration: underline;
-  color:#AD1457;
+  color:var(--primary-variant);
 }
 
 @media only screen and (max-width: 1240px) {
