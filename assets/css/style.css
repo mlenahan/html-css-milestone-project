@@ -317,9 +317,7 @@ footer {
   bottom: 0;
   color: #FFFFFF;
   margin-top: var(--spacing-gutter);
-  margin-top: auto;
-  position: fixed;
-  width: 100%;
+  margin-top: -1px;
 }
 
 footer > div {
