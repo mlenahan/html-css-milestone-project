@@ -90,6 +90,10 @@
 body {
   font-family: var(--primary-font);
   margin: 0px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 a {
@@ -189,6 +193,7 @@ button:hover {
   display: block;
   height: auto;
   max-width: 100%;
+  min-width: 100%;
 }
 
 
@@ -211,7 +216,6 @@ button:hover {
 
 .container>section:not(:first-of-type) {
   padding-top: var(--spacing-section-padding-between);
-  border-top: var(--border-thickness) solid var(--secondary-variant);
 }
 
 
@@ -345,6 +349,8 @@ footer > div > ul {
   object-fit: cover;
   width:200px;
   height:200px;
+  border-radius: 5px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 20%);
 }
 
 .recipe-card a:hover {

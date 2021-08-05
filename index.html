@@ -15,104 +15,107 @@
 
 <body>
 
-  <header>
-    <nav>
-      <ul id="menu">
-        <li>
-          <a href="https://www.bbcgoodfood.com/" target="_blank" rel="noopener"
-          aria-label="Visit our BBC Good Food home page (opens in a new tab)">BBC Good Food</a>
-        </li>
-        <li>
-          <a href="index.html" class="active">My Recipes</a>
-        </li>
-      </ul>
-    </nav>
-  </header>
+  <!--
+    Wrap header and container div in a single div to use justify-content: space-between; on body element.
+    This pins the footer to the bottom of the page.
+  -->
+  <div>
+    <header>
+      <nav>
+        <ul id="menu">
+          <li>
+            <a href="https://www.bbcgoodfood.com/" target="_blank" rel="noopener"
+              aria-label="Visit our BBC Good Food home page (opens in a new tab)">BBC Good Food</a>
+          </li>
+          <li>
+            <a href="index.html" class="active">My Recipes</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
 
-  <div class="container">
+    <div class="container">
 
-    <section class="recipe-title-section">
-      <div class="my-recipes-div">
-        <h1>My Recipes</h1>
-      </div>
-    </section>
-
-    <section>
-      <div class="recipe-card">
-        <div>
-          <a href="pizza-baked-potato.html">
-            <img class="recipe-image" src="assets/images/pizza-baked-potato.jpg"
-              alt="baked potato covered in cheese and pepperoni with marinara sauce and cheese in the background">
-          </a>
+      <section class="recipe-title-section">
+        <div class="my-recipes-div">
+          <h1>My Recipes</h1>
         </div>
+      </section>
 
-        <div class="recipe-card-content">
-          <a href="pizza-baked-potato.html">
-            <h2>Pizza Baked Potato</h2>
-          </a>
-
-          <div class="prep-notes">
-            <div>
-              <span><i class="far fa-clock"></i> Prep: 1 hr 45 mins</span>
-            </div>
-
-            <div>
-              <span><i class="fas fa-check"></i> Difficulty: Easy</span>
-            </div>
-
-            <div>
-              <span><i class="fas fa-user-friends"></i> Serves: 4</span>
-            </div>
+      <section>
+        <div class="recipe-card">
+          <div>
+            <a href="pizza-baked-potato.html">
+              <img class="recipe-image" src="assets/images/pizza-baked-potato.jpg"
+                alt="baked potato covered in cheese and pepperoni with marinara sauce and cheese in the background">
+            </a>
           </div>
 
-          <p>
-            This recipe uses the microwave to bake the potato—a very quick method that will allow you to prepare baked
-            potatoes for a weeknight dinner. But if you want to bake a potato in the oven, simply pierce the potato with
-            a fork and rub it down with oil. Set the potato on a wire rack set over a baking sheet, which keeps the
-            potato elevated and allows air to circulate all around for even cooking.
-          </p>
+          <div class="recipe-card-content">
+            <a href="pizza-baked-potato.html">
+              <h2>Pizza Baked Potato</h2>
+            </a>
+
+            <div class="prep-notes">
+              <div>
+                <span><i class="far fa-clock"></i> Prep: 1 hr 45 mins</span>
+              </div>
+
+              <div>
+                <span><i class="fas fa-check"></i> Difficulty: Easy</span>
+              </div>
+
+              <div>
+                <span><i class="fas fa-user-friends"></i> Serves: 4</span>
+              </div>
+            </div>
+
+            <p>
+              This budget-friendly supper combines two favourites in one dish. Top your jacket spuds with
+              cheese, tomato, pepperoni and basil.
+            </p>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section>
-      <div class="recipe-card">
-        <div>
-          <a href="beef-barbacoa.html">
-            <img src="assets/images/barbacoa-tacos.jpg"
-              alt="three barbacoa beef tacos on a plate surrounded by vibrant green vegetables">
-          </a>
-        </div>
-
-        <div class="recipe-card-content">
-          <a href="beef-barbacoa.html">
-            <h2>Slow Cooker Beef Barbacoa</h2>
-          </a>
-
-          <div class="prep-notes">
-            <div>
-              <span><i class="far fa-clock"></i> Prep: 1 hr 30 mins</span>
-            </div>
-
-            <div>
-              <span><i class="fas fa-check"></i> Difficulty: Easy</span>
-            </div>
-
-            <div>
-              <span><i class="fas fa-user-friends"></i> Serves: 8-10</span>
-            </div>
+      <section>
+        <div class="recipe-card">
+          <div>
+            <a href="beef-barbacoa.html">
+              <img src="assets/images/barbacoa-tacos.jpg"
+                alt="three barbacoa beef tacos on a plate surrounded by vibrant green vegetables">
+            </a>
           </div>
 
-          <p class="fix-footer">
-            This recipe uses the microwave to bake the potato—a very quick method that will allow you to prepare baked
-            potatoes for a weeknight dinner. But if you want to bake a potato in the oven, simply pierce the potato with
-            a fork and rub it down with oil. Set the potato on a wire rack set over a baking sheet, which keeps the
-            potato elevated and allows air to circulate all around for even cooking.
-          </p>
+          <div class="recipe-card-content">
+            <a href="beef-barbacoa.html">
+              <h2>Slow Cooker Beef Barbacoa</h2>
+            </a>
 
+            <div class="prep-notes">
+              <div>
+                <span><i class="far fa-clock"></i> Prep: 1 hr 30 mins</span>
+              </div>
+
+              <div>
+                <span><i class="fas fa-check"></i> Difficulty: Easy</span>
+              </div>
+
+              <div>
+                <span><i class="fas fa-user-friends"></i> Serves: 8-10</span>
+              </div>
+            </div>
+
+            <p class="fix-footer">
+              You can leave this barbacoa beef in the slow cooker during the day if you're entertaining. Serve in
+              lettuce
+              cups, tacos, or over rice with vegetables.
+            </p>
+
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </div>
   </div>
 
   <footer>
