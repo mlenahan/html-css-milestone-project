@@ -160,6 +160,7 @@ p {
   font-size: var(--font-size-body);
   letter-spacing: var(--font-letter-spacing-body);
   font-weight: var(--font-weight-body);
+  line-height: 32px;
 }
 
 /* material ui */
@@ -196,7 +197,6 @@ button:hover {
   min-width: 100%;
 }
 
-
 .container {
   display: flex;
   flex-direction: column;
@@ -227,8 +227,6 @@ button:hover {
   background: var(--secondary-variant);
   mix-blend-mode: normal;
 }
-
- /*fix positioning for this  */
 
 .author-save-div {
   display: flex;
@@ -279,14 +277,13 @@ th {
   font-weight: var(--font-weight-body);
 }
 
-/* need to space out divs correctly???? */
 .ingredients {
   display: flex;
   flex-direction: row;
 }
 
 .ingredients-section li {
-  line-height: 2;
+  line-height: 32px;
 }
 
 .ingredients-right {
@@ -305,6 +302,7 @@ th {
   align-items: flex-start;
   font-size:var(--font-size-body);
   font-weight: var(--font-weight-body);
+  line-height: 32px;
 }
 
 .method-list-item {
