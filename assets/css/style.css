@@ -317,8 +317,8 @@ footer {
   bottom: 0;
   color: #FFFFFF;
   margin-top: var(--spacing-gutter);
-  margin-top: -1px;
-  position: absolute;
+  margin-top: auto;
+  position: fixed;
   width: 100%;
 }
 
