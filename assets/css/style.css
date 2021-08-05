@@ -44,7 +44,6 @@
   --font-letter-spacing-body: 0.5px;
 
   /* Boldtext */ 
-    /* bold text not being bold?? */
   --font-size-boldtext: 16px;
   --font-weight-boldtext: 700;                  
   --font-letter-spacing-boldtext: 0.5px;
@@ -375,7 +374,3 @@ footer > div > ul {
   }
 
 }
-  /* Breakpoints
-  --breakpoint-large: 1440px;
-  --breakpoint-medium: 1240px;
-  --breakpoint-small: 600px; */

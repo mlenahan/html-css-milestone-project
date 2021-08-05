@@ -1,104 +1,119 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Rare Food
 
-Welcome Michael Lenahan,
+As an avid cook, I regularly visit the various different websites that proivide mountains of recipes. I always find that navigating around these sites and the general layout of their pages isn't the most pleasing on the eye. Due to this fact, I thought it would be an enjoyable task to try to recreate some of these recipe websites in a more aesthetically pleasing fashion.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. The last update to this file was: **July 2, 2021**
+BBC Good Food is one of my most visited recipe websites so I took inspiration from this and put my own spin on it. Also, I enjoy reading articles on the website Medium. I really love the zen style they use in displaying their content and decided to apply a zen style to my recipe website.
 
-## Gitpod Reminders
+This website will be useful to anyone who loves cooking and finding new recipes, but hates the ugly and unappealing layout of some of the most popular recipe websites out there! The use of a zen style will be easy on the eye and enjoyable to use and navigate through.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+My site is designed around the principals of [Material Design](https://material.io/design). 
 
-`python3 -m http.server`
+(space for screenshots proving responsiveness  (various devices screenshots included in testing section??).)
 
-A blue button should appear to click: _Make Public_,
+## Planning
 
-Another blue button should appear to click: _Open Browser_.
+- __Figma__
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+    - Before I took on the task of designing this website, I decided that I wanted to learn how to use [Figma](https://www.figma.com/). I know this will be a skill that will stand to me in the future and be a great aid in planning out projects I take on.
+    (include screenshots and link to figma file)
 
-A blue button should appear to click: _Make Public_,
+## Features
 
-Another blue button should appear to click: _Open Browser_.
+Here I will highlight the main features I have included in my recipe website.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+### Existing Features
 
-To log into the Heroku toolbelt CLI:
+- __Navigation Bar__
+    (include screenshot)
+    - Featured on all three pages, the full responsive navigation bar includes a Logo, About page and a My Recipes page. It is identical in each page to allow for easy navigation.
+    - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+- __The landing Page__
+    (include screenshot)
+    - The landing page of this website is the 'My Recipes' page. This is a page where users will be able to browse the various recipes that the site has to offer.
+    - With the use of cards, the recipes are aranged in a column down the page, providing a small amount of information about the particular recipe including the name of the dish, the time it takes to make, the difficulty, the amount of people it should serve and a short piece of text describing the dish.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+- __The Nutrional Breakdown__
+    (include screenshot)
+    - With a lot more people being into fitness and being generally healthy conscious, I feel it was important to have a section which higlighted the nutritional breakdown of each of the dishes. 
+    - To do this, I created a table which displays this information in a clean and simple fashion making it easy for the user to gather the information they require.
 
-------
+- __The Ingredients Section__
+    (include screenshot)
+    - One of the things I find myself looking for when I visit a recipe page first is the ingredients section. Most people will check this to see how easily accessible the required ingredients are. To help with this, I have created a clean and simple list that displays the ingredients required to make each particular meal.
 
-## Release History
+    - There is nothing else in this section other than the required ingredients. Some recipe sites can surround their ingredients section with useless information and unnessasary styling. I have taken all of this out of the equation and provided the ingredients in a 'zen' manner.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+- __The Method Section__
+    (include screenshot)
+    - The same principals I discussed in the ingredients section apply to the method section
+    - Laying everything out in a clean and simple manner is always my preferred wway of viewing things and the method section is no different from the ingredients section.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+- __Recipe Cards__
+    (include screenshot)
+    - Taking inspiration from the browse page of [Medium](https://medium.com/), I wanted to display my recipes in cards. This is the ideal way to present the various recipes and provide just enough information to allow the user to decide whether they want to check out a particular recipe. I designed them around the fundamentals for cards from [Material Design Cards](https://material.io/components/cards)
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+- __Footer__
+    (include screenshots)
+    - The footer section includes links to the relevant social media sites for Rare Food. The links will open to a new tab to allow easy navigation for the user. It also includes a link to my GitHub profile.
+    - The footer is valuable to the user as it encourages them to keep connected via social media.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+### Features Left To Implement
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+- __Account System__
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+    - In order to implement some features I've considered for the future, I would need to add an account system and username and password validation. This would include a profile page that will show their saved recipes.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+- __Functioning Save Button__
+    (include screenshot)
+    - I have included a save button feature on my recipe pages for styling purposes. The button is fully responsive but doesn't actual function. In the future, with the use of some JavaScript and JSON, I would love to add in a database system which will allow the user to save their favourite recipes to their verified profile page.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+- __Recipe Posting Function__
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+    - If an account system is implemented, this could allow for users to post their own recipes in a form and share them with the rest of the websites community.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+## Testing
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+- HTML
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/)
+  (include screenshots)
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+- CSS
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/)
+  (include screenshots)
+  - I decided to use variable sin my CSS and I am aware that this validator doesn't recognise CSS variables but I am 100% sure that they work as intended.
+  (include screenshots)
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+  - Responsiveness
+    - I have tested the responsiveness of my website on multiple browsers and devices. For desktop and laptop, I tested the webiste on Chrome and Safari. (include screenshots)
 
-------
+    - I have tested the responsiveness on iPhone and iPad also. (include screenshots)
 
-## FAQ about the uptime script
+### Unfixed Bugs
 
-**Why have you added this script?**
+- I have encountered no bugs with my website so far, but will document them here if they occur in the future.
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
 
-**How will this affect me?**
+## Deployment
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+- The site was deployed to GitHub pages. The steps to deploy are as follows: 
+  - In the GitHub repository, navigate to the Settings tab 
+  - From the source section drop-down menu, select the Master Branch
+  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+  The live link can be found here - https://mlenahan.github.io/rare-food/index.html
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+- To avoid potential plagiarism of my code, If someone wishes to clone the repo, they can do so with this command ```git clone https://github.com/mlenahan/rare-food.git```
+- If the user is using GitPod, they can clone the code using the GitPod button that would appear above the code.
 
-**So….?**
+### Credits
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+- The content of my recipes was taken from [BBC Good Food](https://www.bbcgoodfood.com/)
+- The inspiration for my design and layout was taken from [Medium](https://medium.com/)
+- I learned how to use and implement CSS variables through tutorials created by [Kevin Powell](https://www.youtube.com/kepowob)
+- I learned how to use Figma through tutorials created by [Figma](https://www.youtube.com/channel/UCQsVmhSa4X-G3lHlUtejzLA)
 
-**Can I opt out?**
+### Media
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+    (include exact links for images used)
