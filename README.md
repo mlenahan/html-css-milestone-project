@@ -85,7 +85,7 @@ Here I will highlight the main features I have included in my recipe website.
   - I decided to use variable sin my CSS and I am aware that this validator doesn't recognise CSS variables but I am 100% sure that they work as intended.
   (include screenshots)
 
-  - Responsiveness
+- Responsiveness
     - I have tested the responsiveness of my website on multiple browsers and devices. For desktop and laptop, I tested the webiste on Chrome and Safari. (include screenshots)
 
     - I have tested the responsiveness on iPhone and iPad also. (include screenshots)
@@ -117,3 +117,4 @@ Here I will highlight the main features I have included in my recipe website.
 ### Media
 
     (include exact links for images used)
+    (logo used)
