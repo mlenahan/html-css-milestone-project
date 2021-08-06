@@ -316,7 +316,6 @@ footer {
   bottom: 0;
   color: var(--surface-main);
   margin-top: var(--spacing-gutter);
-  margin-top: -1px;
 }
 
 footer > div {
