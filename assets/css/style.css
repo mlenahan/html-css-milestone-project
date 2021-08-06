@@ -328,8 +328,6 @@ footer > div > ul {
     column-gap: 16px;
 }
 
-/* Browse Page */
-
 .recipe-card {
   display: flex;
   gap: var(--spacing-gutter);
@@ -352,6 +350,12 @@ footer > div > ul {
 .recipe-card a:hover {
   text-decoration: underline;
   color:var(--primary-variant);
+}
+
+.about-us {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-gutter);
 }
 
 @media only screen and (max-width: 1240px) {
