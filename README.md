@@ -9,13 +9,13 @@ This website will be useful to anyone who loves cooking and finding new recipes,
 My site is designed around the principals of [Material Design](https://material.io/design). 
 
 ### Index page 
-![image](assets/images/readme/index-am-i-responsive.png) 
+![image](readme-screenshots/index-am-i-responsive.png) 
 
 ### Recipe Page
-![image](assets/images/readme/recipe-am-i-responsive.png)
+![image](readme-screenshots/recipe-am-i-responsive.png)
 
 ### About Page
-![image](assets/images/readme/about-am-i-responsive.png)
+![image](readme-screenshots/about-am-i-responsive.png)
 
 ## Planning
 
@@ -32,28 +32,28 @@ Here I will highlight the main features I have included in my recipe website.
 
 - __Navigation Bar__
     
-    ![image](assets/images/readme/nav-bar.png)
+    ![image](readme-screenshots/nav-bar.png)
 
     - Featured on all three pages, the full responsive navigation bar includes a Logo, About page and a My Recipes page. It is identical in each page to allow for easy navigation.
     - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
 
 - __The landing Page__
 
-    ![image](assets/images/readme/landing-page.png)
+    ![image](readme-screenshots/landing-page.png)
 
     - The landing page of this website is the 'My Recipes' page. This is a page where users will be able to browse the various recipes that the site has to offer.
     - With the use of cards, the recipes are aranged in a column down the page, providing a small amount of information about the particular recipe including the name of the dish, the time it takes to make, the difficulty, the amount of people it should serve and a short piece of text describing the dish.
 
 - __The Nutrional Breakdown__
     
-    ![image](assets/images/readme/nutrition.png)
+    ![image](readme-screenshots/nutrition.png)
 
     - With a lot more people being into fitness and being generally healthy conscious, I feel it was important to have a section which higlighted the nutritional breakdown of each of the dishes. 
     - To do this, I created a table which displays this information in a clean and simple fashion making it easy for the user to gather the information they require.
 
 - __The Ingredients Section__
     
-    ![image](assets/images/readme/ingredients.png)
+    ![image](readme-screenshots/ingredients.png)
 
     - One of the things I find myself looking for when I visit a recipe page first is the ingredients section. Most people will check this to see how easily accessible the required ingredients are. To help with this, I have created a clean and simple list that displays the ingredients required to make each particular meal.
 
@@ -61,26 +61,26 @@ Here I will highlight the main features I have included in my recipe website.
 
 - __The Method Section__
     
-    ![image](assets/images/readme/method.png)
+    ![image](readme-screenshots/method.png)
 
     - The same principals I discussed in the ingredients section apply to the method section
     - Laying everything out in a clean and simple manner is always my preferred wway of viewing things and the method section is no different from the ingredients section.
 
 - __Recipe Cards__
     
-    ![image](assets/images/readme/recipe-card.png)
+    ![image](readme-screenshots/recipe-card.png)
 
     - Taking inspiration from the browse page of [Medium](https://medium.com/), I wanted to display my recipes in cards. This is the ideal way to present the various recipes and provide just enough information to allow the user to decide whether they want to check out a particular recipe. I designed them around the fundamentals for cards from [Material Design Cards](https://material.io/components/cards)
 
 - __About Page__
     
-    ![image](assets/images/readme/about-page.jpg)
+    ![image](readme-screenshots/about-page.jpg)
 
     - The About Page includes a large picture of people and food. It also includes information about each of the fabricated team member that work for Rare Food.
 
 - __Footer__
     
-    ![image](assets/images/readme/footer.png)
+    ![image](readme-screenshots/footer.png)
 
     - The footer section includes links to the relevant social media sites for Rare Food. The links will open to a new tab to allow easy navigation for the user. It also includes a link to my GitHub profile.
     - The footer is valuable to the user as it encourages them to keep connected via social media.
@@ -94,7 +94,7 @@ Here I will highlight the main features I have included in my recipe website.
 
 - __Functioning Save Button__
     
-    ![image](assets/images/readme/button.png)
+    ![image](readme-screenshots/button.png)
 
     - I have included a save button feature on my recipe pages for styling purposes. The button is fully responsive but doesn't actual function. In the future, with the use of some JavaScript and JSON, I would love to add in a database system which will allow the user to save their favourite recipes to their verified profile page.
 
@@ -107,20 +107,33 @@ Here I will highlight the main features I have included in my recipe website.
 - HTML
   - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/)
   
-  ![image](assets/images/readme/index-validation-html.png)
+  ![image](readme-screenshots/index-validation-html.png)
 
-  ![image](assets/images/readme/recipe-validation-html.png)
+  ![image](readme-screenshots/recipe-validation-html.png)
+
+  ![image](readme-screenshots/about-validation-html.png)
 
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/)
-  (include screenshots)
+  
+  ![image](readme-screenshots/css-validation.png)
+
   - I decided to use variable sin my CSS and I am aware that this validator doesn't recognise CSS variables but I am 100% sure that they work as intended.
-  (include screenshots)
+  
+  ![image](readme-screenshots/variable-warnings.png)
 
 - Responsiveness
-    - I have tested the responsiveness of my website on multiple browsers and devices. For desktop and laptop, I tested the webiste on Chrome and Safari. (include screenshots)
+    - I have tested the responsiveness of my website on multiple browsers and devices. For desktop and laptop, I tested the webiste on Chrome and Safari.
 
-    - I have tested the responsiveness on iPhone and iPad also. (include screenshots)
+    ![image](readme-screenshots/chrome.png)
+
+    ![image](readme-screenshots/safari.png)
+
+    - I have tested the responsiveness on iPhone and iPad also.
+
+    ![image](readme-screenshots/ipad.jpg)
+
+    ![image](readme-screenshots/iphone.png)
 
     - There are no know issues with responsiveness across all devices and browsers I have tested.
 
@@ -153,5 +166,11 @@ Here I will highlight the main features I have included in my recipe website.
 
 ### Media
 
-    (include exact links for images used)
-    (logo used)
+- These are links to all media used throughout the website
+
+    - [About](https://images.immediate.co.uk/production/volatile/sites/30/2021/06/About_GF_v3-408d02b.jpg?quality=90&lb=620,413&background=white)
+    - [Pizza Baked Potato](https://www.google.com/url?sa=i&url=http%3A%2F%2Fwww.seasaltwithfood.com%2F2012%2F01%2Fbaked-potato-skins-pepperoni-pizza.html&psig=AOvVaw16Kenk2rwvTzAvjJyAKYzS&ust=1628347980267000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCKiu_IzTnPICFQAAAAAdAAAAABAE)
+    - [Slow Cooker Beef Barbacoa](https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2021/02/Barbacoa-Tacos-3.jpg)
+    - [Bourbon, Black Cherry & Bacon Brownies](https://unsplash.com/photos/5z1a_EsYs40)
+    - [Mezcal Margarita](https://unsplash.com/photos/uE-BD8_Cx18)
+    - [Icon](https://hatchful.shopify.com/)
