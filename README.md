@@ -53,6 +53,10 @@ Here I will highlight the main features I have included in my recipe website.
     (include screenshot)
     - Taking inspiration from the browse page of [Medium](https://medium.com/), I wanted to display my recipes in cards. This is the ideal way to present the various recipes and provide just enough information to allow the user to decide whether they want to check out a particular recipe. I designed them around the fundamentals for cards from [Material Design Cards](https://material.io/components/cards)
 
+- __About Page__
+    (include screenshot)
+    - The About Page includes a large picture of people and food. It also includes information about each of the fabricated team member that work for Rare Food.
+
 - __Footer__
     (include screenshots)
     - The footer section includes links to the relevant social media sites for Rare Food. The links will open to a new tab to allow easy navigation for the user. It also includes a link to my GitHub profile.

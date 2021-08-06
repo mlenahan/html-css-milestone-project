@@ -114,6 +114,11 @@ header {
   padding: 0 var(--spacing-gutter);
 }
 
+.logo {
+  height: 150px;
+  width: 150px;
+}
+
 header ul {
   display: flex;
   justify-content: space-between;
@@ -162,8 +167,6 @@ p {
   font-weight: var(--font-weight-body);
   line-height: 32px;
 }
-
-/* material ui */
 
 button {
   padding: var(--spacing-button-padding);
