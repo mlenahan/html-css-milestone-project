@@ -173,4 +173,5 @@ Here I will highlight the main features I have included in my recipe website.
     - [Slow Cooker Beef Barbacoa](https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2021/02/Barbacoa-Tacos-3.jpg)
     - [Bourbon, Black Cherry & Bacon Brownies](https://unsplash.com/photos/5z1a_EsYs40)
     - [Mezcal Margarita](https://unsplash.com/photos/uE-BD8_Cx18)
-    - [Icon](https://hatchful.shopify.com/)
+    - [Rare Food Icon](https://hatchful.shopify.com/)
+    - [Icons](https://fontawesome.com/)
