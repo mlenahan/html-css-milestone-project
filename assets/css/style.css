@@ -105,6 +105,8 @@ a:hover {
   text-decoration: underline;
 }
 
+/* Header */
+
 header {
   background: var(--primary-main);
   color:var(--surface-main);
@@ -129,6 +131,8 @@ header ul {
 ul {
   list-style-type: none;
 }
+
+/* Headings */
 
 h1 {
   color: var(--primary-variant);
@@ -167,6 +171,8 @@ p {
   font-weight: var(--font-weight-body);
   line-height: 32px;
 }
+
+/* Recipe Page */
 
 button {
   padding: var(--spacing-button-padding);
@@ -310,6 +316,8 @@ th {
   padding-bottom: 20px;
 }
 
+/* Footer */
+
 footer {
   height: 55px;
   background: var(--primary-main);
@@ -329,6 +337,8 @@ footer > div > ul {
     display: flex;
     column-gap: 16px;
 }
+
+/* Recipe Card */
 
 .recipe-card {
   display: flex;
@@ -359,6 +369,8 @@ footer > div > ul {
   flex-direction: column;
   gap: var(--spacing-gutter);
 }
+
+/* Media Queries */
 
 @media only screen and (max-width: 1240px) {
   :root {
